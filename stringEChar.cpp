@@ -4,11 +4,9 @@ using namespace std;
 
 int main(){
 
-    char x = 'x';
-
-
-    if(x == "y") cout << "0";
-    else cout << "1";
+    string phrase;
+    cin >> phrase;
+    cout << phrase;
 
     return 0;
 }
