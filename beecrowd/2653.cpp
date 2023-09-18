@@ -7,7 +7,7 @@ int main(){
 	set <string> jewelry;
 	string jewel;
 
-	while(getline(cin,jewel)){
+	while(cin >> jewel){
 		jewelry.insert(jewel);
 	}
 
